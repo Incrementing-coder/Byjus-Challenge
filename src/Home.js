@@ -69,7 +69,7 @@ closeModalHandler = () => {
       {
         title: "Company Name",
         field: "companyname",
-        width: 150,
+        width: 200,
         align: "left",
         headerFilter: "input"
       },
@@ -90,7 +90,7 @@ closeModalHandler = () => {
       {
         title: "Skills",
         field: "skills",
-        width: 200,
+        width: 250,
         align: "left",
         headerFilter: "input"
       },
@@ -149,7 +149,9 @@ closeModalHandler = () => {
           jd: row.getData().jd,
           salary: row.getData().salary,
           location: row.getData().location,
-          applylink: row.getData().applylink
+          applylink: row.getData().applylink,
+          skills: row.getData().skills,
+          company: row.getData().companyname
         }
         that.openModalHandler()
       }
