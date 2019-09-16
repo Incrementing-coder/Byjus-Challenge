@@ -3,9 +3,9 @@
 # Buju's Front End Challenge (Using React)
 
 ### Features: 
-- User can filter jobs based on Title and/or Company Name and/or Location and/or Experience and/or Skills and/or Salary and/or Start date and End Date;
-- Displays total number of jobs found;
-- Displays total number of jobs found after custom job filtering by user;
+- User can filter jobs based on Title and/or Company Name and/or Location and/or Experience and/or Skills and/or Salary and/or Start date and End Date.
+- Displays total number of jobs found.
+- Displays total number of jobs found after custom job filtering by user.
 - User can select the page size to display 20 - 50 - 100 - 200 records on one page.
 - Pagination provided with functionality to go to the First and Last Page.
 - User can sort based on Job location and experience.
